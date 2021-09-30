@@ -6,28 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WeatherBoard</title>
   <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <!-- <style>
-    body {
-      height:100%;
-      background: rgb(237,236,241);
-      background: linear-gradient(to left top, white, #71A3FF) fixed;
-    }
-    .row1 {
-      background-color: rgb(232, 243, 255);
-    }
-    .head {
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 10px;
-    } -->
+  
     <style>
     .head {
       justify-content: center;
       text-align: center;
-      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow ', sans-serif;
     }
 
     p {
@@ -44,6 +31,11 @@
       
       text-align: center;
       margin-top: 41px;
+      }
+
+      #searchEnter{
+        margin-top: 15px;
+
       }
 
     
@@ -64,7 +56,7 @@
             <p>Look up any city and get its weather</p>
             <form>
               <div class="d-grid gap-2 col-6 mx-auto">
-                <label for="locationSearch" class="form-label justify-content=center">Search here</label>
+                <label for="locationSearch" class="form-label justify-content=center"></label>
                 <input type="text" class="form-control" id="locationSearch">
               </div class="container">
               <button type="submit" id="searchEnter" class="btn-primary">Search</button> 
