@@ -2,13 +2,13 @@
       background-color: black;
     } */
     
-    
+/*     
     .container {
       height: 100%;
       background-color: black;
       justify-content: right;
       /* background: linear-gradient(to left top, white, #71ff71) fixed; */
-    }
+    /* }
 
     .row1 {
       background-color: rgb(232, 243, 255);
@@ -19,8 +19,8 @@
       justify-content: center;
       align-items: center;
       padding-top: 10px;
-    }
-
+    } */
+/* 
     .btn {
       justify-content: right;
     }
@@ -33,4 +33,34 @@ col-sm-12 {
 }
 .head {
   justify-content: center;
+} */ */
+
+
+.head {
+  justify-content: center;
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow ', sans-serif;
 }
+
+p {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-label {
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  
+  text-align: center;
+  margin-top: 41px;
+  }
+
+  #searchEnter{
+    margin-top: 15px;
+
+  }
+
+

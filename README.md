@@ -1,1 +1,1 @@
-# weatherDashboard
+# weatherDashboard is a basic weather app that allows the user to look up any city and get its current weather.
